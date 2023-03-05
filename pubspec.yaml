@@ -89,6 +89,11 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
   assets:
-    - assets/images/background.png
+    - assets/images/bg_left.png
+    - assets/images/bg_right.png
+    - assets/images/bg_logo.png
+    - assets/images/bg_map.png
+    - assets/images/bg_driver.png
+    - assets/images/bg_bottom.png
     - assets/images/login.png
     - assets/images/left_arrow.png

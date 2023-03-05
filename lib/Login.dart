@@ -1,17 +1,12 @@
 import 'package:flutter/material.dart';
+import 'background.dart';
 
 class Login extends StatelessWidget {
   const Login({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      decoration: const BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage("assets/images/login.png"),
-          fit: BoxFit.cover,
-        ),
-      ),
+    return Background(
       child: Scaffold(
         backgroundColor: Colors.transparent,
         body: Column(
