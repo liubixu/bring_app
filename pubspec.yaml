@@ -97,3 +97,5 @@ flutter:
     - assets/images/bg_bottom.png
     - assets/images/login.png
     - assets/images/left_arrow.png
+    - assets/images/ic_facebook.png
+    - assets/images/ic_google.png
