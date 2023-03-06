@@ -16,7 +16,6 @@ class Login extends StatelessWidget {
               margin: const EdgeInsets.only(top: 46.0, left: 15),
               child: InkWell(
                 onTap: () {
-                  // Handle button press event
                   Navigator.pop(context);
                 },
                 child: Image.asset(
