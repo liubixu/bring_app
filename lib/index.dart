@@ -15,7 +15,8 @@ class IndexPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
               SizedBox(
-                height: MediaQuery.of(context).size.height - 206,
+                width: MediaQuery.of(context).size.width,
+                height: MediaQuery.of(context).size.height - 256.18,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
@@ -110,34 +111,22 @@ class IndexPage extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                child: Row(
+                width: MediaQuery.of(context).size.width,
+                child: Stack(
                   children: [
                     Container(
-                      height: 206,
-                      width: 114,
-                      margin: const EdgeInsets.only(
-                          left:
-                              56.0), // set the margin to 16.0 pixels on the left
-                      child: Align(
-                        alignment: Alignment
-                            .bottomLeft, // set the alignment to the bottom left
-                        child: Image.asset(
-                            'assets/images/bg_map.png'), // use the Image widget to display the image
-                      ),
+                      height: 256.18,
+                      width: 125.7,
+                      margin: const EdgeInsets.only(left: 49.73),
+                      child: Image.asset('assets/images/bg_map.png'),
                     ),
-                    Expanded(
-                      child: Align(
-                        alignment: Alignment
-                            .bottomRight, // set the alignment to the bottom right
-                        child: Container(
-                          height: 194,
-                          width: 221,
-                          margin: const EdgeInsets.only(
-                              right:
-                                  49.0), // set the margin to 16.0 pixels on the right
-                          child: Image.asset(
-                              'assets/images/bg_driver.png'), // use the Image widget to display the image
-                        ),
+                    Positioned(
+                      right: 49,
+                      child: Container(
+                        height: 194.01,
+                        width: 220.92,
+                        margin: const EdgeInsets.only(top: 62.17),
+                        child: Image.asset('assets/images/bg_driver.png'),
                       ),
                     ),
                   ],
